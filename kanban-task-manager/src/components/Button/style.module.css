@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.button {
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: "DM Sans", serif;
+    
+}
+
+.button a {
+    display: flex;
+}
+
+.button:hover {
+    color: #e5e5e5;
+    opacity: 0.8;
+}
+
+.btnfillbtn{
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(112.8deg, #6A36FF -15.76%, #AC5FE6 102.86%);
+    transition: 0.3s;
+    font-family: "DM Sans", sans-serif;
+}
+
+.btnfillbtn a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnfillbtn a :last-child {
+    margin-left: 5px;
+}
+
+.btnfillbtn:hover{
+    opacity: 0.8;
+}
