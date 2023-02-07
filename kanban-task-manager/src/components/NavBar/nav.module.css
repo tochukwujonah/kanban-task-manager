@@ -3,6 +3,7 @@
     padding: 8px 18px;
     border-radius: 10px;
     transition: 0.4s;
+    margin-left: 10px;
 }
 
 .auth_list :first-child{
@@ -15,4 +16,8 @@
 
 .auth_list :last-child:hover{
     opacity: 0.7;
+}
+
+.nav-smooth{
+    transition: 1s;
 }

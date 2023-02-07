@@ -12,6 +12,20 @@ body{
   font-family: 'DM Sans', sans-serif;
 }
 
+.bg-black-gradient {
+  background: linear-gradient(83.79deg, #1B45B4 3.25%, #1C2792 96.85%);
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+
 h1 {
   font-family: "DM Sans" , sans-serif;
   font-size: 3.75rem;
