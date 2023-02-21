@@ -12,7 +12,7 @@ const Button = ({filledBtn, icon, text, link}) => {
             
 
             { icon 
-            ? <span>{icon}</span> 
+            ? <span className='pl-[5px]'>{icon}</span> 
             : null }
             
         </a>

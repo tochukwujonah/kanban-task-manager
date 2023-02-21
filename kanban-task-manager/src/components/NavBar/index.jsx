@@ -12,12 +12,12 @@ const NavBar = () => {
     const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='w-full flex justify-between navbar'>
+    <nav className='w-full flex justify-between items-center navbar py-8'>
         
         <h4 className='text-[2rem] text-white font-bold'>
             Saasly
         </h4>
-        <ul className=' justify-between w-[30%]  sm:flex hidden '>
+        <ul className=' justify-between w-[35%]  sm:flex hidden '>
             {
             NavItems.map((items) => {
                 return (
@@ -54,9 +54,9 @@ const NavBar = () => {
                 {
                 toggle
                     ?
-                    <VscClose color='#fff' />
+                    <VscClose size={'25px'} color='#fff' />
 
-                    :<RxHamburgerMenu color='#fff' />
+                    :<RxHamburgerMenu size={'25px'} color='#fff' />
                 }
             </div>
             
@@ -92,7 +92,6 @@ const NavBar = () => {
                             }
                         </ul>
                     </div>
-
             </div>
             
         </div>

@@ -8,13 +8,14 @@ import {
 
 import './index.css'
 import Root from './routes/root'
-import ErrorPage from './pages/ErrorPage/ErrorPage'
+import { LandingPage, ErrorPage } from './pages'
+// import ErrorPage from './pages/ErrorPage/ErrorPage'
 import ComponentsContainer from './components/ComponentsCont'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
+    element: <LandingPage />,
     errorElement: <ErrorPage />
   },
   {

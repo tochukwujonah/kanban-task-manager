@@ -6,13 +6,13 @@ import NavBar from './NavBar'
 
 const ComponentsContainer = () => {
   return (
-    <section>
+    <div className={styles.section}>
       ComponentsContainer
       <p>{ }</p>
       <NavBar />
       <Button text={'Outlined'} />
       <Button text={'Filled'} icon={<AiOutlineLink />} link='https://google.com' filledBtn />
-    </section>
+    </div>
   )
 }
 
