@@ -1,3 +1,12 @@
+import { 
+    circooleLogo,
+    commandRLogo,
+    hourGlassLogo,
+    layersLogo,
+    quotientLogo, 
+} from '../assets/images'
+
+
 export const NavItems = [
     {
         title: 'Home',
@@ -37,4 +46,31 @@ export const Auth = [
         id: '2',
         link: '/signup'
     },
+]
+
+export const partners = [
+    {
+        img: layersLogo,
+        id: 1
+    },
+
+    {
+        img: quotientLogo,
+        id: 2
+    },
+
+    {
+        img: circooleLogo,
+        id: 3
+    },
+
+    {
+        img: hourGlassLogo,
+        id: 4
+    },
+
+    {
+        img: commandRLogo,
+        id: 5
+    }
 ]
